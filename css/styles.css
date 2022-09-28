@@ -119,6 +119,7 @@ body {
 }
 .team-item {
   font-weight: 500;
+  font-size: 16px;
 }
 
 .team-box {
@@ -130,7 +131,7 @@ body {
 .light-logo {
   color: var(--main-light-color);
 }
-footer {
+.bottom-contacts {
   background-color: var(--main-dark-color);
 }
 .map {
@@ -181,9 +182,12 @@ footer {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.gallery-text {
+.gallery-link {
+  text-decoration: none;
+  color: inherit;
   font-size: 16px;
   line-height: 1.88;
 }
